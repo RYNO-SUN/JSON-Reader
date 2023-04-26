@@ -368,7 +368,7 @@
 </template>
 
 <script>
-import json from "/public/RaceCard_C3R.json";
+import json from "/public/RaceCard_LYO.json";
 
 export default {
   name: "App",
