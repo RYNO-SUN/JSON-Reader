@@ -11,7 +11,7 @@
  </div>
 </div>
 
- 
+<h1>Hollywood Bets Greyville (South Africa):</h1>
  <div class="container mt-4" id="app">
 
 <table class="table table-bordered">
@@ -221,138 +221,7 @@
       <td>{{ horse.trainerName }}</td>
       <td>{{ horse.weight }}</td>
      </tr>
-     <tr>
-      <th scope="col">RaceTitle</th>
-      <th scope="col">Distance</th>
-      <th scope="col">Stake</th>
-      <th scope="col">Course</th>
-      <th scope="col">Club</th>
-      
      
-    </tr>
-    <tr>
-<td>{{ myRacecard.races[6].title }}</td>
-<td>{{ myRacecard.races[6].distance }}</td>
-<td>{{ myRacecard.races[6].stake }}</td>
-<td>{{ myRacecard.races[6].course }}</td>
-<td>{{ myRacecard.races[6].club }}</td>
-</tr>
-     <tr>
-      <th scope="col">Horse Number</th>
-      <th scope="col">Horse Name</th>
-      <th scope="col">Draw</th>
-      <th scope="col">Jockey Name</th>
-      <th scope="col">Trainer Name</th>
-      <th scope="col">weight</th>
-     
-    </tr>
-     <tr v-for="horse, index in myRacecard.races[6].horses">
-      <td scope="row">{{ horse.horseNo }}</td>
-      <td>{{ horse.horseName }}</td>
-      <td>{{ horse.draw }}</td>
-      <td>{{ horse.jockeyName }}</td>
-      <td>{{ horse.trainerName }}</td>
-      <td>{{ horse.weight }}</td>
-     </tr>
-     <tr>
-      <th scope="col">RaceTitle</th>
-      <th scope="col">Distance</th>
-      <th scope="col">Stake</th>
-      <th scope="col">Course</th>
-      <th scope="col">Club</th>
-      
-     
-    </tr>
-    <tr>
-<td>{{ myRacecard.races[7].title }}</td>
-<td>{{ myRacecard.races[7].distance }}</td>
-<td>{{ myRacecard.races[7].stake }}</td>
-<td>{{ myRacecard.races[7].course }}</td>
-<td>{{ myRacecard.races[7].club }}</td>
-</tr>
-     <tr>
-      <th scope="col">Horse Number</th>
-      <th scope="col">Horse Name</th>
-      <th scope="col">Draw</th>
-      <th scope="col">Jockey Name</th>
-      <th scope="col">Trainer Name</th>
-      <th scope="col">weight</th>
-     
-    </tr>
-     <tr v-for="horse, index in myRacecard.races[7].horses">
-      <td scope="row">{{ horse.horseNo }}</td>
-      <td>{{ horse.horseName }}</td>
-      <td>{{ horse.draw }}</td>
-      <td>{{ horse.jockeyName }}</td>
-      <td>{{ horse.trainerName }}</td>
-      <td>{{ horse.weight }}</td>
-     </tr>
-     <tr>
-      <th scope="col">RaceTitle</th>
-      <th scope="col">Distance</th>
-      <th scope="col">Stake</th>
-      <th scope="col">Course</th>
-      <th scope="col">Club</th>
-      
-     
-    </tr>
-    <tr>
-<td>{{ myRacecard.races[8].title }}</td>
-<td>{{ myRacecard.races[8].distance }}</td>
-<td>{{ myRacecard.races[8].stake }}</td>
-<td>{{ myRacecard.races[8].course }}</td>
-<td>{{ myRacecard.races[8].club }}</td>
-</tr>
-     <tr>
-      <th scope="col">Horse Number</th>
-      <th scope="col">Horse Name</th>
-      <th scope="col">Draw</th>
-      <th scope="col">Jockey Name</th>
-      <th scope="col">Trainer Name</th>
-      <th scope="col">weight</th>
-     
-    </tr>
-     <tr v-for="horse, index in myRacecard.races[8].horses">
-      <td scope="row">{{ horse.horseNo }}</td>
-      <td>{{ horse.horseName }}</td>
-      <td>{{ horse.draw }}</td>
-      <td>{{ horse.jockeyName }}</td>
-      <td>{{ horse.trainerName }}</td>
-      <td>{{ horse.weight }}</td>
-     </tr>
-     <tr>
-      <th scope="col">RaceTitle</th>
-      <th scope="col">Distance</th>
-      <th scope="col">Stake</th>
-      <th scope="col">Course</th>
-      <th scope="col">Club</th>
-      
-     
-    </tr>
-    <tr>
-<td>{{ myRacecard.races[9].title }}</td>
-<td>{{ myRacecard.races[9].distance }}</td>
-<td>{{ myRacecard.races[9].stake }}</td>
-<td>{{ myRacecard.races[9].course }}</td>
-<td>{{ myRacecard.races[9].club }}</td>
-</tr>
-     <tr>
-      <th scope="col">Horse Number</th>
-      <th scope="col">Horse Name</th>
-      <th scope="col">Draw</th>
-      <th scope="col">Jockey Name</th>
-      <th scope="col">Trainer Name</th>
-      <th scope="col">weight</th>
-     
-    </tr>
-     <tr v-for="horse, index in myRacecard.races[9].horses">
-      <td scope="row">{{ horse.horseNo }}</td>
-      <td>{{ horse.horseName }}</td>
-      <td>{{ horse.draw }}</td>
-      <td>{{ horse.jockeyName }}</td>
-      <td>{{ horse.trainerName }}</td>
-      <td>{{ horse.weight }}</td>
-     </tr>
     
 
    
@@ -368,7 +237,7 @@
 </template>
 
 <script>
-import json from "/public/RaceCard_C3R.json";
+import json from "/public/3.json";
 
 export default {
   name: "App",

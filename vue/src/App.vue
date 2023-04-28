@@ -1,10 +1,14 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import race2 from './components/race2.vue'
+import race3 from './components/race3.vue'
 </script>
 
 <template>
   
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld />
+  <race2 />
+  <race3  />
 </template>
 
 <style scoped>
